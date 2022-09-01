@@ -9,13 +9,13 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "../node_modules/@module-federation/nextjs-ssr/lib/noop.js":
-/*!*****************************************************************!*\
-  !*** ../node_modules/@module-federation/nextjs-ssr/lib/noop.js ***!
-  \*****************************************************************/
+/***/ "./node_modules/@module-federation/nextjs-ssr/lib/noop.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/@module-federation/nextjs-ssr/lib/noop.js ***!
+  \****************************************************************/
 /***/ ((module) => {
 
-eval("module.exports = {};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi4vbm9kZV9tb2R1bGVzL0Btb2R1bGUtZmVkZXJhdGlvbi9uZXh0anMtc3NyL2xpYi9ub29wLmpzLmpzIiwibWFwcGluZ3MiOiJBQUFBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vaXRlbWNhdGFsb2d1ZS8uLi9ub2RlX21vZHVsZXMvQG1vZHVsZS1mZWRlcmF0aW9uL25leHRqcy1zc3IvbGliL25vb3AuanM/MDJhNiJdLCJzb3VyY2VzQ29udGVudCI6WyJtb2R1bGUuZXhwb3J0cyA9IHt9O1xuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///../node_modules/@module-federation/nextjs-ssr/lib/noop.js\n");
+eval("module.exports = {};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9ub2RlX21vZHVsZXMvQG1vZHVsZS1mZWRlcmF0aW9uL25leHRqcy1zc3IvbGliL25vb3AuanMuanMiLCJtYXBwaW5ncyI6IkFBQUEiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9pdGVtY2F0YWxvZ3VlLy4vbm9kZV9tb2R1bGVzL0Btb2R1bGUtZmVkZXJhdGlvbi9uZXh0anMtc3NyL2xpYi9ub29wLmpzPzhlN2IiXSwic291cmNlc0NvbnRlbnQiOlsibW9kdWxlLmV4cG9ydHMgPSB7fTtcbiJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./node_modules/@module-federation/nextjs-ssr/lib/noop.js\n");
 
 /***/ }),
 
@@ -58,7 +58,7 @@ var init = (shareScope, initScope) => {
 // This exports getters to disallow modifications
 __webpack_require__.d(exports, {
 	get: () => (get),
-	init: () => (init), chunkMap: () => ({"sharedModules":[],"federatedModules":[{"remote":"itemcatalogue","entry":"static/chunks/remoteEntry.js","sharedModules":[],"exposes":{"./items":[{"chunks":["static/chunks/components_items_jsx-fed.js"],"sharedModules":[]}],"./home":[{"chunks":["static/chunks/pages_index_js-fed.js"],"sharedModules":[]}]},"remoteModules":{}}],"loadable":{"index.js -> ../realPages/index":{"id":"index.js -> ../realPages/index","files":["static/chunks/realPages_index_js-fed.js"]}}}), hash: ()=>("b0c101db6e82c06986727dbf1ac345ad")
+	init: () => (init), chunkMap: () => ({"sharedModules":[],"federatedModules":[{"remote":"itemcatalogue","entry":"static/chunks/remoteEntry.js","sharedModules":[],"exposes":{"./items":[{"chunks":["static/chunks/components_items_jsx-fed.js"],"sharedModules":[]}],"./home":[{"chunks":["static/chunks/pages_index_js-fed.js"],"sharedModules":[]}]},"remoteModules":{}}],"loadable":{}}), hash: ()=>("1d27c4997ead09816d57660c641282e9")
 });
 
 /***/ }),
@@ -82,6 +82,248 @@ module.exports = require("react");
 
 "use strict";
 module.exports = require("react/jsx-dev-runtime");
+
+/***/ }),
+
+/***/ "assert":
+/*!*************************!*\
+  !*** external "assert" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("assert");
+
+/***/ }),
+
+/***/ "async_hooks":
+/*!******************************!*\
+  !*** external "async_hooks" ***!
+  \******************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("async_hooks");
+
+/***/ }),
+
+/***/ "buffer":
+/*!*************************!*\
+  !*** external "buffer" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("buffer");
+
+/***/ }),
+
+/***/ "child_process":
+/*!********************************!*\
+  !*** external "child_process" ***!
+  \********************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("child_process");
+
+/***/ }),
+
+/***/ "console":
+/*!**************************!*\
+  !*** external "console" ***!
+  \**************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("console");
+
+/***/ }),
+
+/***/ "crypto":
+/*!*************************!*\
+  !*** external "crypto" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("crypto");
+
+/***/ }),
+
+/***/ "diagnostics_channel":
+/*!**************************************!*\
+  !*** external "diagnostics_channel" ***!
+  \**************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("diagnostics_channel");
+
+/***/ }),
+
+/***/ "events":
+/*!*************************!*\
+  !*** external "events" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("events");
+
+/***/ }),
+
+/***/ "fs":
+/*!*********************!*\
+  !*** external "fs" ***!
+  \*********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("fs");
+
+/***/ }),
+
+/***/ "http":
+/*!***********************!*\
+  !*** external "http" ***!
+  \***********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("http");
+
+/***/ }),
+
+/***/ "net":
+/*!**********************!*\
+  !*** external "net" ***!
+  \**********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("net");
+
+/***/ }),
+
+/***/ "os":
+/*!*********************!*\
+  !*** external "os" ***!
+  \*********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("os");
+
+/***/ }),
+
+/***/ "path":
+/*!***********************!*\
+  !*** external "path" ***!
+  \***********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("path");
+
+/***/ }),
+
+/***/ "perf_hooks":
+/*!*****************************!*\
+  !*** external "perf_hooks" ***!
+  \*****************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("perf_hooks");
+
+/***/ }),
+
+/***/ "stream":
+/*!*************************!*\
+  !*** external "stream" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("stream");
+
+/***/ }),
+
+/***/ "stream/web":
+/*!*****************************!*\
+  !*** external "stream/web" ***!
+  \*****************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("stream/web");
+
+/***/ }),
+
+/***/ "tls":
+/*!**********************!*\
+  !*** external "tls" ***!
+  \**********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("tls");
+
+/***/ }),
+
+/***/ "tty":
+/*!**********************!*\
+  !*** external "tty" ***!
+  \**********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("tty");
+
+/***/ }),
+
+/***/ "url":
+/*!**********************!*\
+  !*** external "url" ***!
+  \**********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("url");
+
+/***/ }),
+
+/***/ "util":
+/*!***********************!*\
+  !*** external "util" ***!
+  \***********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("util");
+
+/***/ }),
+
+/***/ "util/types":
+/*!*****************************!*\
+  !*** external "util/types" ***!
+  \*****************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("util/types");
+
+/***/ }),
+
+/***/ "zlib":
+/*!***********************!*\
+  !*** external "zlib" ***!
+  \***********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("zlib");
 
 /***/ })
 
@@ -323,357 +565,13 @@ module.exports = require("react/jsx-dev-runtime");
 /******/ 			var promises = [];
 /******/ 			switch(name) {
 /******/ 				case "default": {
-/******/ 					register("@module-federation/nextjs-ssr/lib/noop.js", "0.2.0-rc.2", () => (() => (__webpack_require__(/*! ../node_modules/@module-federation/nextjs-ssr/lib/noop.js */ "../node_modules/@module-federation/nextjs-ssr/lib/noop.js"))), 1);
+/******/ 					register("@module-federation/nextjs-ssr/lib/noop.js", "0.2.0-rc.2", () => (() => (__webpack_require__(/*! ./node_modules/@module-federation/nextjs-ssr/lib/noop.js */ "./node_modules/@module-federation/nextjs-ssr/lib/noop.js"))), 1);
 /******/ 				}
 /******/ 				break;
 /******/ 			}
 /******/ 			if(!promises.length) return initPromises[name] = 1;
 /******/ 			return initPromises[name] = Promise.all(promises).then(() => (initPromises[name] = 1));
 /******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/consumes */
-/******/ 	(() => {
-/******/ 		var parseVersion = (str) => {
-/******/ 			// see webpack/lib/util/semver.js for original code
-/******/ 			var p=p=>{return p.split(".").map((p=>{return+p==p?+p:p}))},n=/^([^-+]+)?(?:-([^+]+))?(?:\+(.+))?$/.exec(str),r=n[1]?p(n[1]):[];return n[2]&&(r.length++,r.push.apply(r,p(n[2]))),n[3]&&(r.push([]),r.push.apply(r,p(n[3]))),r;
-/******/ 		}
-/******/ 		var versionLt = (a, b) => {
-/******/ 			// see webpack/lib/util/semver.js for original code
-/******/ 			a=parseVersion(a),b=parseVersion(b);for(var r=0;;){if(r>=a.length)return r<b.length&&"u"!=(typeof b[r])[0];var e=a[r],n=(typeof e)[0];if(r>=b.length)return"u"==n;var t=b[r],f=(typeof t)[0];if(n!=f)return"o"==n&&"n"==f||("s"==f||"u"==n);if("o"!=n&&"u"!=n&&e!=t)return e<t;r++}
-/******/ 		}
-/******/ 		var rangeToString = (range) => {
-/******/ 			// see webpack/lib/util/semver.js for original code
-/******/ 			var r=range[0],n="";if(1===range.length)return"*";if(r+.5){n+=0==r?">=":-1==r?"<":1==r?"^":2==r?"~":r>0?"=":"!=";for(var e=1,a=1;a<range.length;a++){e--,n+="u"==(typeof(t=range[a]))[0]?"-":(e>0?".":"")+(e=2,t)}return n}var g=[];for(a=1;a<range.length;a++){var t=range[a];g.push(0===t?"not("+o()+")":1===t?"("+o()+" || "+o()+")":2===t?g.pop()+" "+g.pop():rangeToString(t))}return o();function o(){return g.pop().replace(/^\((.+)\)$/,"$1")}
-/******/ 		}
-/******/ 		var satisfy = (range, version) => {
-/******/ 			// see webpack/lib/util/semver.js for original code
-/******/ 			if(0 in range){version=parseVersion(version);var e=range[0],r=e<0;r&&(e=-e-1);for(var n=0,i=1,a=!0;;i++,n++){var f,s,g=i<range.length?(typeof range[i])[0]:"";if(n>=version.length||"o"==(s=(typeof(f=version[n]))[0]))return!a||("u"==g?i>e&&!r:""==g!=r);if("u"==s){if(!a||"u"!=g)return!1}else if(a)if(g==s)if(i<=e){if(f!=range[i])return!1}else{if(r?f>range[i]:f<range[i])return!1;f!=range[i]&&(a=!1)}else if("s"!=g&&"n"!=g){if(r||i<=e)return!1;a=!1,i--}else{if(i<=e||s<g!=r)return!1;a=!1}else"s"!=g&&"n"!=g&&(a=!1,i--)}}var t=[],o=t.pop.bind(t);for(n=1;n<range.length;n++){var u=range[n];t.push(1==u?o()|o():2==u?o()&o():u?satisfy(u,version):!o())}return!!o();
-/******/ 		}
-/******/ 		var ensureExistence = (scopeName, key) => {
-/******/ 			var scope = __webpack_require__.S[scopeName];
-/******/ 			if(!scope || !__webpack_require__.o(scope, key)) throw new Error("Shared module " + key + " doesn't exist in shared scope " + scopeName);
-/******/ 			return scope;
-/******/ 		};
-/******/ 		var findVersion = (scope, key) => {
-/******/ 			var versions = scope[key];
-/******/ 			var key = Object.keys(versions).reduce((a, b) => {
-/******/ 				return !a || versionLt(a, b) ? b : a;
-/******/ 			}, 0);
-/******/ 			return key && versions[key]
-/******/ 		};
-/******/ 		var findSingletonVersionKey = (scope, key) => {
-/******/ 			var versions = scope[key];
-/******/ 			return Object.keys(versions).reduce((a, b) => {
-/******/ 				return !a || (!versions[a].loaded && versionLt(a, b)) ? b : a;
-/******/ 			}, 0);
-/******/ 		};
-/******/ 		var getInvalidSingletonVersionMessage = (scope, key, version, requiredVersion) => {
-/******/ 			return "Unsatisfied version " + version + " from " + (version && scope[key][version].from) + " of shared singleton module " + key + " (required " + rangeToString(requiredVersion) + ")"
-/******/ 		};
-/******/ 		var getSingleton = (scope, scopeName, key, requiredVersion) => {
-/******/ 			var version = findSingletonVersionKey(scope, key);
-/******/ 			return get(scope[key][version]);
-/******/ 		};
-/******/ 		var getSingletonVersion = (scope, scopeName, key, requiredVersion) => {
-/******/ 			var version = findSingletonVersionKey(scope, key);
-/******/ 			if (!satisfy(requiredVersion, version)) typeof console !== "undefined" && console.warn && console.warn(getInvalidSingletonVersionMessage(scope, key, version, requiredVersion));
-/******/ 			return get(scope[key][version]);
-/******/ 		};
-/******/ 		var getStrictSingletonVersion = (scope, scopeName, key, requiredVersion) => {
-/******/ 			var version = findSingletonVersionKey(scope, key);
-/******/ 			if (!satisfy(requiredVersion, version)) throw new Error(getInvalidSingletonVersionMessage(scope, key, version, requiredVersion));
-/******/ 			return get(scope[key][version]);
-/******/ 		};
-/******/ 		var findValidVersion = (scope, key, requiredVersion) => {
-/******/ 			var versions = scope[key];
-/******/ 			var key = Object.keys(versions).reduce((a, b) => {
-/******/ 				if (!satisfy(requiredVersion, b)) return a;
-/******/ 				return !a || versionLt(a, b) ? b : a;
-/******/ 			}, 0);
-/******/ 			return key && versions[key]
-/******/ 		};
-/******/ 		var getInvalidVersionMessage = (scope, scopeName, key, requiredVersion) => {
-/******/ 			var versions = scope[key];
-/******/ 			return "No satisfying version (" + rangeToString(requiredVersion) + ") of shared module " + key + " found in shared scope " + scopeName + ".\n" +
-/******/ 				"Available versions: " + Object.keys(versions).map((key) => {
-/******/ 				return key + " from " + versions[key].from;
-/******/ 			}).join(", ");
-/******/ 		};
-/******/ 		var getValidVersion = (scope, scopeName, key, requiredVersion) => {
-/******/ 			var entry = findValidVersion(scope, key, requiredVersion);
-/******/ 			if(entry) return get(entry);
-/******/ 			throw new Error(getInvalidVersionMessage(scope, scopeName, key, requiredVersion));
-/******/ 		};
-/******/ 		var warnInvalidVersion = (scope, scopeName, key, requiredVersion) => {
-/******/ 			typeof console !== "undefined" && console.warn && console.warn(getInvalidVersionMessage(scope, scopeName, key, requiredVersion));
-/******/ 		};
-/******/ 		var get = (entry) => {
-/******/ 			entry.loaded = 1;
-/******/ 			return entry.get()
-/******/ 		};
-/******/ 		var init = (fn) => (function(scopeName, a, b, c) {
-/******/ 			var promise = __webpack_require__.I(scopeName);
-/******/ 			if (promise && promise.then) return promise.then(fn.bind(fn, scopeName, __webpack_require__.S[scopeName], a, b, c));
-/******/ 			return fn(scopeName, __webpack_require__.S[scopeName], a, b, c);
-/******/ 		});
-/******/ 		
-/******/ 		var load = /*#__PURE__*/ init((scopeName, scope, key) => {
-/******/ 			ensureExistence(scopeName, key);
-/******/ 			return get(findVersion(scope, key));
-/******/ 		});
-/******/ 		var loadFallback = /*#__PURE__*/ init((scopeName, scope, key, fallback) => {
-/******/ 			return scope && __webpack_require__.o(scope, key) ? get(findVersion(scope, key)) : fallback();
-/******/ 		});
-/******/ 		var loadVersionCheck = /*#__PURE__*/ init((scopeName, scope, key, version) => {
-/******/ 			ensureExistence(scopeName, key);
-/******/ 			return get(findValidVersion(scope, key, version) || warnInvalidVersion(scope, scopeName, key, version) || findVersion(scope, key));
-/******/ 		});
-/******/ 		var loadSingleton = /*#__PURE__*/ init((scopeName, scope, key) => {
-/******/ 			ensureExistence(scopeName, key);
-/******/ 			return getSingleton(scope, scopeName, key);
-/******/ 		});
-/******/ 		var loadSingletonVersionCheck = /*#__PURE__*/ init((scopeName, scope, key, version) => {
-/******/ 			ensureExistence(scopeName, key);
-/******/ 			return getSingletonVersion(scope, scopeName, key, version);
-/******/ 		});
-/******/ 		var loadStrictVersionCheck = /*#__PURE__*/ init((scopeName, scope, key, version) => {
-/******/ 			ensureExistence(scopeName, key);
-/******/ 			return getValidVersion(scope, scopeName, key, version);
-/******/ 		});
-/******/ 		var loadStrictSingletonVersionCheck = /*#__PURE__*/ init((scopeName, scope, key, version) => {
-/******/ 			ensureExistence(scopeName, key);
-/******/ 			return getStrictSingletonVersion(scope, scopeName, key, version);
-/******/ 		});
-/******/ 		var loadVersionCheckFallback = /*#__PURE__*/ init((scopeName, scope, key, version, fallback) => {
-/******/ 			if(!scope || !__webpack_require__.o(scope, key)) return fallback();
-/******/ 			return get(findValidVersion(scope, key, version) || warnInvalidVersion(scope, scopeName, key, version) || findVersion(scope, key));
-/******/ 		});
-/******/ 		var loadSingletonFallback = /*#__PURE__*/ init((scopeName, scope, key, fallback) => {
-/******/ 			if(!scope || !__webpack_require__.o(scope, key)) return fallback();
-/******/ 			return getSingleton(scope, scopeName, key);
-/******/ 		});
-/******/ 		var loadSingletonVersionCheckFallback = /*#__PURE__*/ init((scopeName, scope, key, version, fallback) => {
-/******/ 			if(!scope || !__webpack_require__.o(scope, key)) return fallback();
-/******/ 			return getSingletonVersion(scope, scopeName, key, version);
-/******/ 		});
-/******/ 		var loadStrictVersionCheckFallback = /*#__PURE__*/ init((scopeName, scope, key, version, fallback) => {
-/******/ 			var entry = scope && __webpack_require__.o(scope, key) && findValidVersion(scope, key, version);
-/******/ 			return entry ? get(entry) : fallback();
-/******/ 		});
-/******/ 		var loadStrictSingletonVersionCheckFallback = /*#__PURE__*/ init((scopeName, scope, key, version, fallback) => {
-/******/ 			if(!scope || !__webpack_require__.o(scope, key)) return fallback();
-/******/ 			return getStrictSingletonVersion(scope, scopeName, key, version);
-/******/ 		});
-/******/ 		var installedModules = {};
-/******/ 		var moduleToHandlerMapping = {
-/******/ 			"webpack/sharing/consume/default/next/dynamic": () => (loadSingleton("default", "next/dynamic"))
-/******/ 		};
-/******/ 		// no consumes in initial chunks
-/******/ 		var chunkMapping = {
-/******/ 			"pages_index_js": [
-/******/ 				"webpack/sharing/consume/default/next/dynamic"
-/******/ 			]
-/******/ 		};
-/******/ 		__webpack_require__.f.consumes = (chunkId, promises) => {
-/******/ 			if(__webpack_require__.o(chunkMapping, chunkId)) {
-/******/ 				chunkMapping[chunkId].forEach((id) => {
-/******/ 					if(__webpack_require__.o(installedModules, id)) return promises.push(installedModules[id]);
-/******/ 					var onFactory = (factory) => {
-/******/ 						installedModules[id] = 0;
-/******/ 						__webpack_require__.m[id] = (module) => {
-/******/ 							delete __webpack_require__.c[id];
-/******/ 							module.exports = factory();
-/******/ 						}
-/******/ 					};
-/******/ 					var onError = (error) => {
-/******/ 						delete installedModules[id];
-/******/ 						__webpack_require__.m[id] = (module) => {
-/******/ 							delete __webpack_require__.c[id];
-/******/ 							throw error;
-/******/ 						}
-/******/ 					};
-/******/ 					try {
-/******/ 						var promise = moduleToHandlerMapping[id]();
-/******/ 						if(promise.then) {
-/******/ 							promises.push(installedModules[id] = promise.then(onFactory)['catch'](onError));
-/******/ 						} else onFactory(promise);
-/******/ 					} catch(e) { onError(e); }
-/******/ 				});
-/******/ 			}
-/******/ 		}
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/consumes */
-/******/ 	(() => {
-/******/ 		var parseVersion = (str) => {
-/******/ 			// see webpack/lib/util/semver.js for original code
-/******/ 			var p=p=>{return p.split(".").map((p=>{return+p==p?+p:p}))},n=/^([^-+]+)?(?:-([^+]+))?(?:\+(.+))?$/.exec(str),r=n[1]?p(n[1]):[];return n[2]&&(r.length++,r.push.apply(r,p(n[2]))),n[3]&&(r.push([]),r.push.apply(r,p(n[3]))),r;
-/******/ 		}
-/******/ 		var versionLt = (a, b) => {
-/******/ 			// see webpack/lib/util/semver.js for original code
-/******/ 			a=parseVersion(a),b=parseVersion(b);for(var r=0;;){if(r>=a.length)return r<b.length&&"u"!=(typeof b[r])[0];var e=a[r],n=(typeof e)[0];if(r>=b.length)return"u"==n;var t=b[r],f=(typeof t)[0];if(n!=f)return"o"==n&&"n"==f||("s"==f||"u"==n);if("o"!=n&&"u"!=n&&e!=t)return e<t;r++}
-/******/ 		}
-/******/ 		var rangeToString = (range) => {
-/******/ 			// see webpack/lib/util/semver.js for original code
-/******/ 			var r=range[0],n="";if(1===range.length)return"*";if(r+.5){n+=0==r?">=":-1==r?"<":1==r?"^":2==r?"~":r>0?"=":"!=";for(var e=1,a=1;a<range.length;a++){e--,n+="u"==(typeof(t=range[a]))[0]?"-":(e>0?".":"")+(e=2,t)}return n}var g=[];for(a=1;a<range.length;a++){var t=range[a];g.push(0===t?"not("+o()+")":1===t?"("+o()+" || "+o()+")":2===t?g.pop()+" "+g.pop():rangeToString(t))}return o();function o(){return g.pop().replace(/^\((.+)\)$/,"$1")}
-/******/ 		}
-/******/ 		var satisfy = (range, version) => {
-/******/ 			// see webpack/lib/util/semver.js for original code
-/******/ 			if(0 in range){version=parseVersion(version);var e=range[0],r=e<0;r&&(e=-e-1);for(var n=0,i=1,a=!0;;i++,n++){var f,s,g=i<range.length?(typeof range[i])[0]:"";if(n>=version.length||"o"==(s=(typeof(f=version[n]))[0]))return!a||("u"==g?i>e&&!r:""==g!=r);if("u"==s){if(!a||"u"!=g)return!1}else if(a)if(g==s)if(i<=e){if(f!=range[i])return!1}else{if(r?f>range[i]:f<range[i])return!1;f!=range[i]&&(a=!1)}else if("s"!=g&&"n"!=g){if(r||i<=e)return!1;a=!1,i--}else{if(i<=e||s<g!=r)return!1;a=!1}else"s"!=g&&"n"!=g&&(a=!1,i--)}}var t=[],o=t.pop.bind(t);for(n=1;n<range.length;n++){var u=range[n];t.push(1==u?o()|o():2==u?o()&o():u?satisfy(u,version):!o())}return!!o();
-/******/ 		}
-/******/ 		var ensureExistence = (scopeName, key) => {
-/******/ 			var scope = __webpack_require__.S[scopeName];
-/******/ 			if(!scope || !__webpack_require__.o(scope, key)) throw new Error("Shared module " + key + " doesn't exist in shared scope " + scopeName);
-/******/ 			return scope;
-/******/ 		};
-/******/ 		var findVersion = (scope, key) => {
-/******/ 			var versions = scope[key];
-/******/ 			var key = Object.keys(versions).reduce((a, b) => {
-/******/ 				return !a || versionLt(a, b) ? b : a;
-/******/ 			}, 0);
-/******/ 			return key && versions[key]
-/******/ 		};
-/******/ 		var findSingletonVersionKey = (scope, key) => {
-/******/ 			var versions = scope[key];
-/******/ 			return Object.keys(versions).reduce((a, b) => {
-/******/ 				return !a || (!versions[a].loaded && versionLt(a, b)) ? b : a;
-/******/ 			}, 0);
-/******/ 		};
-/******/ 		var getInvalidSingletonVersionMessage = (scope, key, version, requiredVersion) => {
-/******/ 			return "Unsatisfied version " + version + " from " + (version && scope[key][version].from) + " of shared singleton module " + key + " (required " + rangeToString(requiredVersion) + ")"
-/******/ 		};
-/******/ 		var getSingleton = (scope, scopeName, key, requiredVersion) => {
-/******/ 			var version = findSingletonVersionKey(scope, key);
-/******/ 			return get(scope[key][version]);
-/******/ 		};
-/******/ 		var getSingletonVersion = (scope, scopeName, key, requiredVersion) => {
-/******/ 			var version = findSingletonVersionKey(scope, key);
-/******/ 			if (!satisfy(requiredVersion, version)) typeof console !== "undefined" && console.warn && console.warn(getInvalidSingletonVersionMessage(scope, key, version, requiredVersion));
-/******/ 			return get(scope[key][version]);
-/******/ 		};
-/******/ 		var getStrictSingletonVersion = (scope, scopeName, key, requiredVersion) => {
-/******/ 			var version = findSingletonVersionKey(scope, key);
-/******/ 			if (!satisfy(requiredVersion, version)) throw new Error(getInvalidSingletonVersionMessage(scope, key, version, requiredVersion));
-/******/ 			return get(scope[key][version]);
-/******/ 		};
-/******/ 		var findValidVersion = (scope, key, requiredVersion) => {
-/******/ 			var versions = scope[key];
-/******/ 			var key = Object.keys(versions).reduce((a, b) => {
-/******/ 				if (!satisfy(requiredVersion, b)) return a;
-/******/ 				return !a || versionLt(a, b) ? b : a;
-/******/ 			}, 0);
-/******/ 			return key && versions[key]
-/******/ 		};
-/******/ 		var getInvalidVersionMessage = (scope, scopeName, key, requiredVersion) => {
-/******/ 			var versions = scope[key];
-/******/ 			return "No satisfying version (" + rangeToString(requiredVersion) + ") of shared module " + key + " found in shared scope " + scopeName + ".\n" +
-/******/ 				"Available versions: " + Object.keys(versions).map((key) => {
-/******/ 				return key + " from " + versions[key].from;
-/******/ 			}).join(", ");
-/******/ 		};
-/******/ 		var getValidVersion = (scope, scopeName, key, requiredVersion) => {
-/******/ 			var entry = findValidVersion(scope, key, requiredVersion);
-/******/ 			if(entry) return get(entry);
-/******/ 			throw new Error(getInvalidVersionMessage(scope, scopeName, key, requiredVersion));
-/******/ 		};
-/******/ 		var warnInvalidVersion = (scope, scopeName, key, requiredVersion) => {
-/******/ 			typeof console !== "undefined" && console.warn && console.warn(getInvalidVersionMessage(scope, scopeName, key, requiredVersion));
-/******/ 		};
-/******/ 		var get = (entry) => {
-/******/ 			entry.loaded = 1;
-/******/ 			return entry.get()
-/******/ 		};
-/******/ 		var init = (fn) => (function(scopeName, a, b, c) {
-/******/ 			var promise = __webpack_require__.I(scopeName);
-/******/ 			if (promise && promise.then) return promise.then(fn.bind(fn, scopeName, __webpack_require__.S[scopeName], a, b, c));
-/******/ 			return fn(scopeName, __webpack_require__.S[scopeName], a, b, c);
-/******/ 		});
-/******/ 		
-/******/ 		var load = /*#__PURE__*/ init((scopeName, scope, key) => {
-/******/ 			ensureExistence(scopeName, key);
-/******/ 			return get(findVersion(scope, key));
-/******/ 		});
-/******/ 		var loadFallback = /*#__PURE__*/ init((scopeName, scope, key, fallback) => {
-/******/ 			return scope && __webpack_require__.o(scope, key) ? get(findVersion(scope, key)) : fallback();
-/******/ 		});
-/******/ 		var loadVersionCheck = /*#__PURE__*/ init((scopeName, scope, key, version) => {
-/******/ 			ensureExistence(scopeName, key);
-/******/ 			return get(findValidVersion(scope, key, version) || warnInvalidVersion(scope, scopeName, key, version) || findVersion(scope, key));
-/******/ 		});
-/******/ 		var loadSingleton = /*#__PURE__*/ init((scopeName, scope, key) => {
-/******/ 			ensureExistence(scopeName, key);
-/******/ 			return getSingleton(scope, scopeName, key);
-/******/ 		});
-/******/ 		var loadSingletonVersionCheck = /*#__PURE__*/ init((scopeName, scope, key, version) => {
-/******/ 			ensureExistence(scopeName, key);
-/******/ 			return getSingletonVersion(scope, scopeName, key, version);
-/******/ 		});
-/******/ 		var loadStrictVersionCheck = /*#__PURE__*/ init((scopeName, scope, key, version) => {
-/******/ 			ensureExistence(scopeName, key);
-/******/ 			return getValidVersion(scope, scopeName, key, version);
-/******/ 		});
-/******/ 		var loadStrictSingletonVersionCheck = /*#__PURE__*/ init((scopeName, scope, key, version) => {
-/******/ 			ensureExistence(scopeName, key);
-/******/ 			return getStrictSingletonVersion(scope, scopeName, key, version);
-/******/ 		});
-/******/ 		var loadVersionCheckFallback = /*#__PURE__*/ init((scopeName, scope, key, version, fallback) => {
-/******/ 			if(!scope || !__webpack_require__.o(scope, key)) return fallback();
-/******/ 			return get(findValidVersion(scope, key, version) || warnInvalidVersion(scope, scopeName, key, version) || findVersion(scope, key));
-/******/ 		});
-/******/ 		var loadSingletonFallback = /*#__PURE__*/ init((scopeName, scope, key, fallback) => {
-/******/ 			if(!scope || !__webpack_require__.o(scope, key)) return fallback();
-/******/ 			return getSingleton(scope, scopeName, key);
-/******/ 		});
-/******/ 		var loadSingletonVersionCheckFallback = /*#__PURE__*/ init((scopeName, scope, key, version, fallback) => {
-/******/ 			if(!scope || !__webpack_require__.o(scope, key)) return fallback();
-/******/ 			return getSingletonVersion(scope, scopeName, key, version);
-/******/ 		});
-/******/ 		var loadStrictVersionCheckFallback = /*#__PURE__*/ init((scopeName, scope, key, version, fallback) => {
-/******/ 			var entry = scope && __webpack_require__.o(scope, key) && findValidVersion(scope, key, version);
-/******/ 			return entry ? get(entry) : fallback();
-/******/ 		});
-/******/ 		var loadStrictSingletonVersionCheckFallback = /*#__PURE__*/ init((scopeName, scope, key, version, fallback) => {
-/******/ 			if(!scope || !__webpack_require__.o(scope, key)) return fallback();
-/******/ 			return getStrictSingletonVersion(scope, scopeName, key, version);
-/******/ 		});
-/******/ 		var installedModules = {};
-/******/ 		var moduleToHandlerMapping = {
-/******/ 			"webpack/sharing/consume/default/next/dynamic": () => (loadSingleton("default", "next/dynamic"))
-/******/ 		};
-/******/ 		// no consumes in initial chunks
-/******/ 		var chunkMapping = {
-/******/ 			"pages_index_js": [
-/******/ 				"webpack/sharing/consume/default/next/dynamic"
-/******/ 			]
-/******/ 		};
-/******/ 		__webpack_require__.f.consumes = (chunkId, promises) => {
-/******/ 			if(__webpack_require__.o(chunkMapping, chunkId)) {
-/******/ 				chunkMapping[chunkId].forEach((id) => {
-/******/ 					if(__webpack_require__.o(installedModules, id)) return promises.push(installedModules[id]);
-/******/ 					var onFactory = (factory) => {
-/******/ 						installedModules[id] = 0;
-/******/ 						__webpack_require__.m[id] = (module) => {
-/******/ 							delete __webpack_require__.c[id];
-/******/ 							module.exports = factory();
-/******/ 						}
-/******/ 					};
-/******/ 					var onError = (error) => {
-/******/ 						delete installedModules[id];
-/******/ 						__webpack_require__.m[id] = (module) => {
-/******/ 							delete __webpack_require__.c[id];
-/******/ 							throw error;
-/******/ 						}
-/******/ 					};
-/******/ 					try {
-/******/ 						var promise = moduleToHandlerMapping[id]();
-/******/ 						if(promise.then) {
-/******/ 							promises.push(installedModules[id] = promise.then(onFactory)['catch'](onError));
-/******/ 						} else onFactory(promise);
-/******/ 					} catch(e) { onError(e); }
-/******/ 				});
-/******/ 			}
-/******/ 		}
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/readFile chunk loading */
