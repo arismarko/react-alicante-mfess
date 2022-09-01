@@ -31,8 +31,8 @@ const nextConfig = {
 const remotes = (isServer) => {
   const location = isServer ? "ssr" : "chunks";
   return {
-    home: `home@http://localhost:3001/_next/static/${location}/remoteEntry.js`,
-    itemcatalogue: `itemcatalogue@http://localhost:3000/_next/static/${location}/remoteEntry.js`
+    home: `home@http://localhost:3000/_next/static/${location}/remoteEntry.js`,
+    itemcatalogue: `itemcatalogue@http://localhost:3001/_next/static/${location}/remoteEntry.js`
   };
 };
 
