@@ -12,13 +12,6 @@ const nextConfig = {
   //   ? `https://${process.env.VERCEL_URL}`
   //   : undefined,
   webpack(config, options) {
-    const { webpack, isServer } = options;
-    config.plugins.push(
-      new webpack.DefinePlugin({
-        __SENTRY_HUB__: "{}",
-      })
-    );
-
     config.module.rules.push({
       test: [/_app.[jt]sx?/, /_document.[jt]sx?/],
       loader: "@module-federation/nextjs-ssr/lib/federation-loader.js",
@@ -33,10 +26,9 @@ const name = "itemcatalogue";
 const remotes = (isServer) => {
   const location = isServer ? "ssr" : "chunks";
   return {
-    home: `home@http://localhost:3000/_next/static/${location}/remoteEntry.js`,
+    home: `home@http://localhost:3001/_next/static/${location}/remoteEntry.js`,
   };
 };
-
 
 module.exports = withPlugins(
   [

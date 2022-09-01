@@ -1,35 +1,13 @@
-import prisma from "../lib/prisma";
+import dynamic from "next/dynamic";
+const page = import("../realPages/index");
 
-export default function Home({ stores }) {
-  console.log(stores);
-  return (
-    <div>
-      Catalogue
-    {
-      stores && stores.map(item => {
-
-          return (
-              <div key={item.id}>
-                  <div>{item.location}</div>
-                  <div>{item.createdAt}</div>
-                  <div>{item.title}</div>
-              </div>
-          )
-      })
-    }
-    </div>
-  )
-}
-
-export const getStaticProps = async () => {
-
-  console.log(prisma);
-
-  const stores = await prisma.store.findMany();
-
-  console.log(stores);
-
-  return {
-    props: { stores }
-  };
+const Page = dynamic(() => import("../realPages/index"));
+Page.getInitialProps = async (ctx) => {
+  console.log("test");
+  const getInitialProps = (await page).default?.getInitialProps;
+  if (getInitialProps) {
+    return getInitialProps(ctx);
+  }
+  return {};
 };
+export default Page;
