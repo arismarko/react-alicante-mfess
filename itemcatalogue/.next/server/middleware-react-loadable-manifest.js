@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST={}
+self.__REACT_LOADABLE_MANIFEST={"index.js -> ../realPages/index":{"id":"index.js -> ../realPages/index","files":["static/chunks/realPages_index_js.js"]}}

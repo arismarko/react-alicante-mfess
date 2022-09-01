@@ -8,10 +8,6 @@ const nextConfig = {
     VERCEL_URL: process.env.VERCEL_URL,
   },
   strictMode: true,
-
-  // assetPrefix: process.env.VERCEL_URL
-  //   ? `https://${process.env.VERCEL_URL}`
-  //   : undefined,
   webpack(config, options) {
     const { webpack, isServer } = options;
     config.plugins.push(
